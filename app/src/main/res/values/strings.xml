@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseFirst</string>
+    <string name="type_user_name">Type User name ...</string>
+    <string name="buttonSet">Set</string>
+    <string name="sendButton">Send!</string>
+    <string name="messageHint">Message.........</string>
+</resources>

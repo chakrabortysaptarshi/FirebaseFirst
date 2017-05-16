@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ssapt.firebasefirst.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:weightSum="1">
+
+    <!--<Button
+        android:id="@+id/buttonSunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="21dp"
+        android:text="Sunny"
+
+        android:layout_marginStart="23dp"
+
+
+        android:layout_alignBaseline="@+id/buttonFoggy"
+        android:layout_alignBottom="@+id/buttonFoggy"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewCondition"
+        android:layout_width="116dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="65dp"
+        android:text="Condition"
+        android:layout_weight="1.43"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/buttonFoggy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foggy"
+        tools:layout_editor_absoluteX="280dp"
+        android:layout_alignTop="@+id/textViewCondition"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="87dp" />
+-->
+    <ListView
+        android:id="@+id/fruitList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSend"
+        android:layout_alignBottom="@+id/buttonSend"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/messageHint"
+        android:layout_toStartOf="@+id/buttonSend" />
+
+    <EditText
+        android:id="@+id/editTextuserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="80dp"
+        android:ems="10"
+        android:hint="@string/type_user_name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonSetUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextuserName"
+        android:layout_alignParentEnd="true"
+        android:text="@string/buttonSet" />
+</RelativeLayout>
